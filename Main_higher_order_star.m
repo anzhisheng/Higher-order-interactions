@@ -18,7 +18,7 @@ repro_val = sum(replace_mat) / sum(sum(replace_mat));
 trans_mat = f_gen_trans_mat(replace_mat, n);
 retime2 = f_cal_remeet_time_two(trans_mat, n);
 retime3 = f_cal_remeet_time_three(trans_mat, retime2, n);
-retime4 = f_cal_remeet_time_four(trans_mat, retime2, retime3, n);
+retime4 = f_cal_remeet_time_four(trans_mat, retime2, retime3, n);    %% calculate four-dimensional coalescence time
 bcratio = f_get_bcratio_accumulate(madj2, madj3, trans_mat, repro_val, n, retime2, retime3, retime4, disc1, disc2)
 
 %%%% Purely third-order interactions
@@ -31,3 +31,4 @@ retime2 = f_cal_remeet_time_two(trans_mat, n);
 retime3 = f_cal_remeet_time_three(trans_mat, retime2, n);
 retime4 = f_cal_remeet_time_four(trans_mat, retime2, retime3, n);
 bcratio = f_get_bcratio_accumulate(0*madj2, madj3, trans_mat, repro_val, n, retime2, retime3, retime4, disc1, disc2)
+
