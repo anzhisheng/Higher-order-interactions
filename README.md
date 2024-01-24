@@ -8,7 +8,7 @@ This is a Matlab program designed for calculating the benefit-to-cost ratio of a
 FILE
 -----
 
-Crucial function:
+Crucial functions:
 
 --f_cal_remeet_time_two: function to calculate two-dimensional coalescence time for any network.
 
@@ -22,7 +22,7 @@ Crucial function:
 
 --f_get_bcratio_average_type2: function to calculate the critical benefit-to-cost ratio of any higher-order networks based on the coupled average payoff.
 
-Three examples are provided to show how to calculate the critical benefit-to-cost ratio of a given higher-order network based on the accumulated payoff:
+Three examples are provided to show the calculation of the critical benefit-to-cost ratio of a given higher-order network based on the accumulated payoff:
 
 --Main_higher_order_star.m: calculate the critical benefit-to-cost ratio of higher-order star networks.
 
