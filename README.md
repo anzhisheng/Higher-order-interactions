@@ -8,6 +8,8 @@ This is a Matlab program designed for calculating the benefit-to-cost ratio of a
 FILE
 -----
 
+Crucial function:
+
 --f_cal_remeet_time_two: function to calculate two-dimensional coalescence time for any network.
 
 --f_cal_remeet_time_three: function to calculate three-dimensional coalescence time for any network.
